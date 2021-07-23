@@ -1,0 +1,32 @@
+img{
+      display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 50%;
+	  border: 10px solid orange;
+}
+
+table th {
+	margin-left: auto;
+	margin-right: auto;
+	border: solid ;
+	}
+
+tr td {
+	margin-left: auto;
+	margin-right: auto;
+	border: solid ;
+	height:50px;
+}
+
+h4 {
+	position:flex;
+	left: 113px;
+	width: 80%;
+	color:red;
+	border: 1px solid red;
+	text-align: center;	
+}
+ul {
+	padding-left: 100px;
+}

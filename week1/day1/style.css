@@ -1,0 +1,37 @@
+
+.container {
+	display: inline-block;
+	border: 1px solid black;
+	width: 300px;
+	height: 90px;
+}
+.red {
+	background-color: red;
+
+}	
+.white {
+	background-color: white;
+}
+
+.blue{
+	background-color: blue;
+}
+.red,  .blue,  .white{
+	width: 100px;
+	height:30px;
+}
+.red1 {
+	background-color: red;
+
+}	
+.white1 {
+	background-color: white;
+}
+
+.blue1{
+	background-color: blue;
+}
+.red1,  .blue1,  .white1{
+	width: 300px;
+	height:90px;
+}

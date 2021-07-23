@@ -1,0 +1,40 @@
+.img_avenger {
+	padding-left: auto;
+	padding-right: auto;
+	margin: 10px;
+	width: 10px;
+	padding: 10px;	
+}
+
+ul{
+	list-style: none;
+	float: right;
+}
+
+p{
+	font-family: sans-serif;
+	font-size: 1em;
+	
+}
+.navigate{
+	display: flex;
+	margin: 10px;
+	width: 100%;
+	font-family: sans-serif;
+}
+
+ ul li{
+	display:block;
+	width:120px;
+	float:left;
+	margin-left:2px;
+	border:1px solid #000;
+
+}
+
+h1{
+	font-family: fantasy;
+	font-size: 4em;
+	background-color: 
+}
+	
