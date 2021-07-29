@@ -6,33 +6,37 @@ print(dictionary)
 
 # Exercise 2 : Cinemax 2
 
+class_list = dict() 
+family_num=0
+
+members = input("How many family members do you have?")
+
+while family_num <= int(members):
+	data = input('Enter names & ages separated by ":" ') 
+	temp = data.split(':') 
+	class_list[temp[0]] = int(temp[1]) 
+  
+	for key, value in class_list.items(): 
+		'Name: {}, age: {}'.format(key, value)
+		family_num += 1
+
+print(class_list) 
+	
+
 family = {"rick": 43, 'beth': 13, 'morty': 5, 'summer': 8}
-x = family.keys()
-print(x, family)
-y=family.values()
-print(y)
-z=family.items()
-print(z)
-family ["Samy"] = 81
-print(z)
+
+
 total=0 
-for age in family.values():
+for age in class_list.values():
 	if age > 2 and age < 13:
 		total += 10  
 	if age > 12:
 		total += 15 
 	if age < 3:
 		total +=0 
-print(total)
+print(f"The total amount is: {total}$")
 
-# Bonus check it later
-# new_dict = {}
-# def create_dict (new_dict):
-# 	new_dict = {input ("Enter your name:age /To finish press * ")}
-# 	if create_dict == "*":
-# 		print(new_dict)
-	 
-# create_dict()
+
 
 # Exercise 3: Zara
 brand = {
@@ -92,16 +96,16 @@ for i, char in enumerate(users):
 	dic1.append(i)
 print(dict(zip(dic1, users)))
 
-# #Only recreate the 1st result for:
-# The characters, which names contain the letter “i”.
-# The characters, which names start with the letter “m” or “p”.
-# for item in users:
-# 	f = item.find("i")
-# 	if f != -1:
-# 	  dic2.append(item)
-# for num1 in range(0,2):
-# 	dic2.append(num1)
-# 	j=dict(zip(dic2, num1))	  
-# print(j)
+#Only recreate the 1st result for:
+The characters, which names contain the letter “i”.
+The characters, which names start with the letter “m” or “p”.
+for item in users:
+	f = item.find("i")
+	if f != -1:
+	  dic2.append(item)
+for num1 in range(0,2):
+	dic2.append(num1)
+	j=dict(zip(dic2, num1))	  
+ print(j)
 
  
