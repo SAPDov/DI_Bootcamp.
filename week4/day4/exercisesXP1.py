@@ -1,43 +1,38 @@
-EX1_______________________________
+print(f"\nEX1_______________________________\n")
 
 def display_message():
 	print("It was a very informative lesson - I learned functions!")
 display_message()
 
-EX2__________________________________
+print(f"\nEX2__________________________________\n")
+
 def favorite_book(title):
 	print(f"One of my favorite books is " + title)
 favorite_book("The HOBBIT")
 
-EX3__________________________________
+print(f"\nEX3__________________________________\n")
 def describe_city(city, country="Israel"):
 	print( city + " is in " + country)
 
 describe_city("Tel aviv", "Israel")
 
-EX4__________________________________
+print(f"\nEX4__________________________________\n")
+
 import random 
 y = random.randint(1, 100)
-
-	print (y)
 	
+def random_num (x, y):
 
-return x,y 
+	if x == y:
+ 		print("Success!")
+	else:
+ 		print ("Failed")
+ 		return x, y
+ 		
 random_num(10, y)
 
-import random
-def random_num (x):
-	random.seed(10)
-	y = random.randint(1, 100)
-	print(x, y)
-	if x == y:
- 		print("a")
-	elif x != y:
- 		print ("Failed")
-random_num (2)
+print(f"\nEX5__________________________________\n")
 
-
-EX5__________________________________
 def make_shirt(size = "Large", script = "I love Python"):
 	if size == "Large" or "Medium":
 		print(f"The size of the shirt is " + size + " The script on the shirt is " + script)
