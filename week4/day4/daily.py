@@ -1,35 +1,31 @@
   
+import re
 
-# order_code = []
 
-# basket = ["Banana",["Apples",["Oranges"],"Blueberries"]];
-# print(basket[1][1])
+matrix_list = [[7, ' ', 3],
+    ['T','s','i'],
+    ['h','%','x'],
+    ['i', ' ', '#'],
+    ['s', 'M', ' '],
+    ['$', 'a', ' '],
+    ['#', 't', '%'],
+    ['i', 'r', '!']]
 
-# code = []
 
-#  def matrix_game():
-#  	print (matrix_game)
-#   	# characters = []
-#  matrix_game(1,2,3,4,5)
+i = 0
+matrix_decode =[]
+while i < len(matrix_list[0]):
 
-	matrix_code=[[7,"i",3],
-    [T,s,i],
-    [h,%,x],
-    [i, ,*],
-    [s,M, ],
-    [$,a, ],
-    [*,t,%],
-    [^,r,!]]
+    for element in matrix_list:
+        matrix_decode.append(element[i])
+    i += 1
+    
+line = ''.join(map(str, matrix_decode))
+line = re.sub('\s+', '', line)
+line = re.sub('[%#$]+', ' ', line)
+line = re.sub(r'[0-9]', '', line)
 
-    print(len(matrix_code))
+print(line)
 
-    # matrix_list = [
-#     [7, ' ', 3],
-#     ['T','s','i'],
-#     ['h','%','x'],
-#     ['i', ' ', '#'],
-#     ['s', 'M', ' '],
-#     ['$', 'a', ' '],
-#     ['#', 't', '%'],
-#     ['i', 'r', '!']
-# ]    ‏
+
+
