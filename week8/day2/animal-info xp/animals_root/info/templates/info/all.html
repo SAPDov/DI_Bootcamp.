@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+		{% for animal in animals %}
+			ID:{{animal.id}}<br>
+		    Name: <a href ="{{animal.link}}">{{animal.name}}</a><br>
+			Legs: {{animal.legs}}<br>
+			Height: {{animal.height}}<br>
+			Speed: {{animal.speed}}<br>
+			Family: {{animal.family}}<br>
+			Weight: {{animal.weight}}<br>
+			<hr>
+		{%endfor%}
+</body>
+</html>
+
