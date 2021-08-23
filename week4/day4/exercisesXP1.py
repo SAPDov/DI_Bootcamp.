@@ -44,29 +44,29 @@ make_shirt("Large")
 
 #EX6__________________________________
 
-# # i=0
-# def show_magicians(li):
-# 	magician_name=[]
-# 	print(magician_name)
-# show_magicians(["Steve", "Jen", "Lenon"])
+# i=0
+def show_magicians(li):
+	magician_name=[]
+	print(magician_name)
+show_magicians(["Steve", "Jen", "Lenon"])
 
-# def make_great(li):
-# 	great = []
-# 	great = magician_name.append(" the great")
-# 	print(great)
-# make_great()
+def make_great(li):
+	great = []
+	great = magician_name.append(" the great")
+	print(great)
+make_great()
 
 
-# 	for names in usernames: 
-# 	print(show_magicians(names[i]))
-# 	i+=1
-# show_magicians(names)
+	for names in usernames: 
+	print(show_magicians(names[i]))
+	i+=1
+show_magicians(names)
 
-# def highest_even(li):
-# 	evens = []
-# 	for item in li:
-# 		if item % 2 == 0:
-# 		 evens.append(item)
-# 	return max (evens)
+def highest_even(li):
+	evens = []
+	for item in li:
+		if item % 2 == 0:
+		 evens.append(item)
+	return max (evens)
 	
-# print(highest_even([10, 2, 3, 4,8,11]))
+print(highest_even([10, 2, 3, 4,8,11]))

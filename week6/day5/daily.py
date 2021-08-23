@@ -14,11 +14,7 @@ PASSWORD = "postgres"
 DATABASE = "countries"
 
 
-def get_countries():
-    url = "https://restcountries.eu/rest/v2/all?fields=name;capital;flag;subregion;population"
-    response = requests.get(url)
-    response = response.json()
-    return response 
+
 
 def add_county(random_list):
     for c in random_list:
