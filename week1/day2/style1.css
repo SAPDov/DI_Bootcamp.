@@ -1,29 +1,33 @@
-.container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-
-s
+.container {
+    display: flex;  
+    justify-content: space-between;
+    padding:10px 10px;
+    border-style: solid none;
 }
 
+.sidebox {    
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap:10px
+ 
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    grid-gap: 100px;
+}
 
-.zone {
+.smallbox {
     background-color: yellow;
-    display: flex;
     height: 100px;
     width: 100px;
     border: solid 2px;
-
-}
-
-
-.left {
   
 }
 
-.middle {
-  
-    
-}
+
+
 
 
 
