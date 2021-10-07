@@ -1,0 +1,43 @@
+
+.grid {
+    display:grid;
+    margin: 0 auto;
+    justify-content: center;
+    width: 430px;
+    height: 500px;
+    grid-gap: 2px;
+   
+    border: solid 2px;  
+    grid-template-columns: repeat(10, auto);
+    grid-template-rows: repeat(10, auto);
+}
+
+.light
+.dark
+.medium {
+    display: flex;
+  
+}
+
+.light {
+    
+    background-color:orange;
+    height: 40px;
+    width: 40px;
+ 
+}
+
+.medium {
+  
+    background-color:lightsalmon;
+    height: 40px;
+    width: 40px;
+
+}
+
+.dark {
+    background-color:darkorange ;
+    height: 40px;
+    width: 40px;
+}
+
